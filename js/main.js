@@ -12,7 +12,7 @@ close.addEventListener("click", () => {
 
 function downloadFile() {
     setTimeout(function() {
-      let fileUrl = '/docs/MiCV.pdf';
+      let fileUrl = 'MiCV.pdf';
       let link = document.createElement('a');
       link.href = fileUrl;
       link.download = 'MiCV.pdf';
