@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de proyecto">
+    <meta name="robots" content="index, follow">
+    <title>All Montilla</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo_am.png" alt="Logo"> </a>
+        <button id="open" class="open-menu"><i class="fas fa-bars"></i></button>
+        <nav class="nav" id="nav">
+        <button class="close-menu" id="close"><i class="fas fa-times"></i></button>
+            <ul class="nav-list">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#form">Formulario</a></li>
+                <!--<li><a href="#notas">Notas</a></li>-->
+            </ul>
+        </nav>
+        <!--<video src="video/keyb.mp4" muted="true" autoplay="true" loop="true"></video>-->
+    </header>
+    <hr>
+    <main>
+        <section class="content">
+            <section class="image">
+                <a href="/"><img src="img/My-picture.jpg" alt="Tren recorriendo poblado" ></a>
+            </section>
+            <section class="home" id="home">
+                <h1>¡Hola! 🖐<br> Soy All Montilla.</h1>
+                <p class="texto1">Soy una persona proactiva, con conocimientos en el mundo de la tecnología de HTML, CSS, Javascriprt, así como también en Desarrollo Back End. Soy organizado, fiel cumplimientos de los objetivos propuestos y visión a seguir, tengo la facilidad de adaptarme al cambio, a lo nuevo, valores de responsanbilidad. Con la misión de adquirir y actualizar conocimientos en el Desarrollo WEb, con la finalidad de ser un desarrollardor FUll STACK.</p>
+                <button class="button" id="download-button" onclick="downloadFile()">Descargar Mi CV</button>
+                <!--<button class="button">
+                    <a href="prueba.txt" class="btn-descarga" download="prueba" title="descargar doc">Descargar CV</a> 
+                </button>-->
+            </section>
+        </section>
+        
+        <section class="bloque" id="contact">
+            <h2>Hablemos! 💬</h2>
+            <p class="texto2">En la actualidad ampliando conocimientos avanzados en el Desarrollo Full Stac para el aporte de soluciones e innovaciones. Si desea comunicarte conmigo puedes hacer contactarme en cualquiera de los enlaces o llenar el formulario. Yo estaré encantado de proporcionarte información y responder preguntas.</p>
+        </section>
+        <section class="formulario" id="form">
+            <form action="https://formsubmit.co/allcitomont@gmail.com" method="POST" >
+                <h2>Contacto</h2>
+                <section class="input-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre">
+        
+                    <label for="phone">Teléfono</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Teléfono">
+        
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" name="email" id="email" placeholder="Correo Electrónico">
+        
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+        
+                    <section class="form-txt">
+                        <a href="#">Política de privacidad</a>
+                        <a href="#">Términos y condiciones</a>
+                    </section>
+                        <input class="bnt" type="submit" value="Enviar">
+                        
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">  
+                        <input type="hidden" name="_captcha" value="false">
+                </section>
+            </form>
+        </section>
+        <section class="iconos">
+            <a href="https://github.com/"><img src="img/github.png" alt="GitHub"></a>
+            <a href="https://co.linkedin.com/"><img src="img/linkedin.png" alt="Linkedin"></a>
+            <a href="mailto:allprojects50@gmail.com"><img src="img/mail.png" alt="Mail"></a>
+        </section>
+    </main>
+    <footer class="piepag">
+        <h3>Código latam, AM, DR-julio 2023</h3>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
